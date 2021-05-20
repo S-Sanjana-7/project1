@@ -1,0 +1,18 @@
+file=input('Enter the name of the file: ')
+#Here I have wrote a program only for the most commonly used extensions.
+if 'py' in file:
+    print("The extension of the file is :'python'")
+elif 'doc' in file:
+    print("The extension of the file is :'document'")
+elif 'ppt' in file:
+    print("The extension of the file is :'presentation'")
+elif 'pdf' in file:
+    print("The extension of the file is :'portable document Format'")
+elif 'cvs' in file:
+    print("The extension of the file is :'canvas'")
+elif 'zip' in file:
+    print("The extension of the file is :'PC ZIP compressed archive'")
+elif 'xls' in file:
+    print("The extension of the file is :'Excel spreadsheet'")
+else:
+    print("The extension of the file is a less commonly used form")
